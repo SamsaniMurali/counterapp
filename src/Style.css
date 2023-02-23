@@ -1,14 +1,31 @@
 *{
     margin-top:150px;
-    padding: 0px;
-    box-sizing: border-box;
-    
 }
-.flex{
+.wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     gap: 10px;
-    
+    flex-direction: column;
+}
+.wrapper button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius:4px;
+    color: #fff;
+    cursor: pointer;
+}
+button:disabled{
+    opacity: 0.6;
+}
+.counter{
+    font-size: 22px;
+}
+.minus{
+    background-color: red;
+}
+.plus{
+    background-color:blue;
 }
